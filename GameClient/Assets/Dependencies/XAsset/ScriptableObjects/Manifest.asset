@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7882bd278763c45f49cef7deeae496e5, type: 3}
+  m_Name: Manifest
+  m_EditorClassIdentifier: 
+  activeVariants: []
+  assets:
+  - bundle: 28
+    dir: 0
+    name: HotUpdateScripts.bytes
+  - bundle: 19
+    dir: 1
+    name: Autumn.unity
+  - bundle: 15
+    dir: 2
+    name: ShaMo.unity
+  - bundle: 1
+    dir: 2
+    name: YuLin.unity
+  bundles:
+  - deps: 
+    hash: 832976751c89ec869330f643887d83e7
+    id: 0
+    len: 41536
+    name: 00745cf0094ca135e356f96e261f8220.unity3d
+  - deps: 0000000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000001000000011000000120000001400000015000000160000001700000018000000190000001a0000001b0000001d000000
+    hash: ee1cf29f9471bfd6e43956f32a0df673
+    id: 1
+    len: 3599101
+    name: 011e4e7c30dbcaecd208fc8f6698126e.unity3d
+  - deps: 1b000000
+    hash: 9feda4acd621a8778e4a2783fc43fb46
+    id: 2
+    len: 12024
+    name: 0bdcd7f2941a5d2a8dc765a3023e38b7.unity3d
+  - deps: 
+    hash: 9e873aa0eb138d120d56af5906ea2261
+    id: 3
+    len: 41693
+    name: 1ba7012bca9d97956df374b263390556.unity3d
+  - deps: 
+    hash: 9e7133a54864d390db92bb6a2792c91c
+    id: 4
+    len: 41536
+    name: 2167a7c8317ea7aea8511fe93221ab66.unity3d
+  - deps: 0300000009000000
+    hash: 768f9878edffc07f5a7452c07faaf28b
+    id: 5
+    len: 3069
+    name: 24afe00c04efaa8cb82db68106ff885c.unity3d
+  - deps: 
+    hash: c79bcc339184e8b0db0c7c46e01cd44b
+    id: 6
+    len: 41696
+    name: 29c3b31be28953d9bf7672d7a65c5826.unity3d
+  - deps: 180000001b000000
+    hash: c0de758d6eddf5e4c73029c1fbdee015
+    id: 7
+    len: 3081
+    name: 2c88b23e7ff4a450e3ed637ce55ba755.unity3d
+  - deps: 0d000000
+    hash: 9536efb7c33e6583c25cb48dc8ab8a89
+    id: 8
+    len: 10336
+    name: 3070793729b172956d027ba2bb2cc1e6.unity3d
+  - deps: 03000000
+    hash: 03907ea98a8a10c73cc657a1714d8411
+    id: 9
+    len: 12176
+    name: 36a27b53db4fa1d3c70460e8ff4f4e63.unity3d
+  - deps: 04000000060000001a000000
+    hash: ec097d2cbbd24fd256de195f7dab20d6
+    id: 10
+    len: 3887
+    name: 3f46ac691796e7c64b264d89d99da7a2.unity3d
+  - deps: 
+    hash: 85a2bd5dc27553a28bd93ca8e83a0ed5
+    id: 11
+    len: 41688
+    name: 4e4969182a282fb59804e42c1f46829e.unity3d
+  - deps: 1d000000
+    hash: 03c35258bf2382c7e8d7c658001b1c34
+    id: 12
+    len: 18994
+    name: 583ade15a1011f4c234a8c34927204ca.unity3d
+  - deps: 
+    hash: 16be9f2560973e9e0b48114501ffaf5e
+    id: 13
+    len: 41693
+    name: 5a2628b7072efcad1000c596bc6548ee.unity3d
+  - deps: 
+    hash: d977a5d0a438ccfb360a3d721658b717
+    id: 14
+    len: 15839
+    name: 6a8495de32d52099802ebacd8ebffca2.unity3d
+  - deps: 0000000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000001000000011000000120000001400000015000000160000001700000018000000190000001a0000001b0000001d000000
+    hash: 483d0f5f05db072c35259c34fe91534c
+    id: 15
+    len: 2573064
+    name: 882b1e41ae0122656b58988734e789c6.unity3d
+  - deps: 
+    hash: 6db40d1c44f1621f46886f2f9d9ab7b3
+    id: 16
+    len: 41693
+    name: 88d61d889fbf7a868ac6a67bca5cb173.unity3d
+  - deps: 0b00000019000000
+    hash: 7ee99e5986f92558343f5f572bb08559
+    id: 17
+    len: 3054
+    name: 9212f4678bbdb41e671f2304a2ac3f68.unity3d
+  - deps: 00000000
+    hash: 1fc779d02fa31f72f4f2a0c9cf3fa860
+    id: 18
+    len: 14106
+    name: 9aee7bd40cf169a83215904d513f1f80.unity3d
+  - deps: 
+    hash: ee83c06cfecb5cf461fb82c7e1b5ea26
+    id: 19
+    len: 60006415
+    name: a5624ae99cc55a5831c36e94064e0a68.unity3d
+  - deps: 080000000d000000
+    hash: ac6ac686825dcace989579f6c3266f24
+    id: 20
+    len: 2862
+    name: ce2af065f8b293ed5cbe34e1da3a9f9d.unity3d
+  - deps: 0c0000001d000000
+    hash: ef21e14efeda8924568fe55782dfe2dd
+    id: 21
+    len: 2869
+    name: d3b5499c2af66a232b5f337c08fae23e.unity3d
+  - deps: 0000000012000000
+    hash: e86aafb76997dd17feb7151e32cb3470
+    id: 22
+    len: 2869
+    name: e701027e74407858d3f335730211740e.unity3d
+  - deps: 020000001b000000
+    hash: 277e2cd0a8c8a2aea1d4e3d897391e33
+    id: 23
+    len: 3076
+    name: e933e4258cb3c2a48bca0faa2c346000.unity3d
+  - deps: 1b000000
+    hash: 220d1e6712eb3ba9b8f060f9a9faa329
+    id: 24
+    len: 13325
+    name: ed294f676eaf8848e69cb4741ca0ab0d.unity3d
+  - deps: 0b000000
+    hash: 4a5f581ba8feb84066ea55fd7b43d703
+    id: 25
+    len: 12085
+    name: ed467a9e6d0ba04861dee1f3ed708eae.unity3d
+  - deps: 0400000006000000
+    hash: 6a912ba81da44d1f8ebe51e69f69ab4f
+    id: 26
+    len: 105071
+    name: ef5cdf8822981c8e311a6e5e49887008.unity3d
+  - deps: 
+    hash: ee14311395c604cf87b3219267c3dce6
+    id: 27
+    len: 41689
+    name: f0030f07015b79072f1cd3b91ac0ec69.unity3d
+  - deps: 
+    hash: b0d3b685c142c8acf679fdb10f13f8bc
+    id: 28
+    len: 77278
+    name: f1e9148d33abaae32bb165f217c22e91.unity3d
+  - deps: 
+    hash: 1c8d3466ce416ca2351c1eca31327c59
+    id: 29
+    len: 41693
+    name: fca2a8c8309b6d9e499cc51b5f3d7d9f.unity3d
+  dirs:
+  - Assets/HotUpdateResources/Dll
+  - Assets/HotUpdateResources/Scene/Autumn
+  - Assets/HotUpdateResources/Scene/ShaMoYuLin/Demo

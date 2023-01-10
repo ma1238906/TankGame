@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{C1692AFA-3C99-44D6-80E2-FBB2D9E10BD2}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Game</RootNamespace>
+    <AssemblyName>Game</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>True</Externalconsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>none</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>True</Externalconsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Web.Extensions">
+      <HintPath>System.Web.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>C:\Program Files %28x86%29\MySQL\MySQL Connector Net 6.10.6\Assemblies\v4.5.2\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="script\net\ByteArray.cs" />
+    <Compile Include="script\proto\SysMsg.cs" />
+    <Compile Include="script\net\MsgBase.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="script\proto\BattleMsg.cs" />
+    <Compile Include="script\net\NetManager.cs" />
+    <Compile Include="script\net\ClientState.cs" />
+    <Compile Include="script\db\DbManager.cs" />
+    <Compile Include="script\proto\LoginMsg.cs" />
+    <Compile Include="script\proto\NotepadMsg.cs" />
+    <Compile Include="script\logic\EventHandler.cs" />
+    <Compile Include="script\logic\Player.cs" />
+    <Compile Include="script\logic\PlayerData.cs" />
+    <Compile Include="script\logic\SysMsgHandler.cs" />
+    <Compile Include="script\logic\PlayerManager.cs" />
+    <Compile Include="script\logic\LoginMsgHandle.cs" />
+    <Compile Include="script\logic\NotepadMsgHandle.cs" />
+    <Compile Include="script\logic\Room.cs" />
+    <Compile Include="script\logic\RoomManager.cs" />
+    <Compile Include="script\proto\RoomMsg.cs" />
+    <Compile Include="script\logic\RoomMsgHandle.cs" />
+    <Compile Include="script\logic\BattleMsgHandle.cs" />
+    <Compile Include="script\proto\SyncMsg.cs" />
+    <Compile Include="script\logic\SyncMsgHandle.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

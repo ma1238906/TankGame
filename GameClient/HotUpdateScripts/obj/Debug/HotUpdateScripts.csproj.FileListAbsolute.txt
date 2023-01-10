@@ -1,0 +1,7 @@
+E:\Learning\Final\Client\Game\Assets\HotUpdateResources\Dll\Hidden~\HotUpdateScripts.dll
+E:\Learning\Final\Client\Game\Assets\HotUpdateResources\Dll\Hidden~\HotUpdateScripts.pdb
+E:\Learning\Final\Client\Game\HotUpdateScripts\obj\Debug\HotUpdateScripts.csproj.AssemblyReference.cache
+E:\Learning\Final\Client\Game\HotUpdateScripts\obj\Debug\HotUpdateScripts.csproj.CoreCompileInputs.cache
+E:\Learning\Final\Client\Game\HotUpdateScripts\obj\Debug\HotUpdateScripts.csproj.CopyComplete
+E:\Learning\Final\Client\Game\HotUpdateScripts\obj\Debug\HotUpdateScripts.dll
+E:\Learning\Final\Client\Game\HotUpdateScripts\obj\Debug\HotUpdateScripts.pdb
